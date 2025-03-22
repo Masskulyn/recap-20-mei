@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  background-color: aqua;
+}
+.main-header h1 {
+  text-align: center;
+  font-family: monospace;
+}
