@@ -5,5 +5,7 @@ function hitungluas() {
     return 0;
   }
   let luas = angka * angka;
-  document.getElementById("hasil").innerText = luas;
+  document.getElementById(
+    "hasil"
+  ).innerHTML = `L = ${angka} x ${angka} <br> L = ${luas} `;
 }
