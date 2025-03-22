@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan Revou</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header class="main-header">
@@ -12,24 +13,43 @@
     </header>
     <main>
       <!-- greetings -->
-      <header>
+      <header class="salam-pembuka">
         <h2>Welcome in Kaltik</h2>
         <p>Hai teman-teman, selamat datang di kaltik. Salam enjoy!!</p>
       </header>
       <!-- navigasi fitur -->
-      <div>
-        <a href="">Persegi</a>
-        <a href="">Persegi Panjang</a>
+      <div class="pilih-bangun-datar">
+        <ul>
+          <li><a href="" class="persegi">Persegi</a></li>
+          <li><a href="" class="persegi-panjang">Persegi Panjang</a></li>
+        </ul>
       </div>
-      <section>
+      <section class="menu-luas-persegi">
         <header>
-          <h1>Luas Persegi</h1>
+          <!-- Menghitung luas persegi -->
+          <h1 class="hitung-l-p">Luas Persegi</h1>
           <!-- Gambar luas -->
-          <div></div>
+          <img src="Assets/persegi.jpeg" alt="" />
+          <div>
+            <p>Rumus luas persegi yaitu ...</p>
+            <p>L = S x S</p>
+            <p>Dimana:</p>
+            <ul>
+              <li>L = Luas</li>
+              <li>S = Sisi persegi</li>
+            </ul>
+            <p class="">Hitung luas persegi</p>
+            <form id="isi-angka">
+              <input type="number" id="angka" />
+              <button onclick="hitungluas()">Konfirmasi</button>
+            </form>
+            <p id="hasil"></p>
+          </div>
         </header>
       </section>
-      <section>
+      <section class="menu-luas-persegi-panjang">
         <header>
+          <!-- menghitung keliling persegi -->
           <h1>Keliling Persegi</h1>
           <!-- Gambar keliling -->
           <div></div>
